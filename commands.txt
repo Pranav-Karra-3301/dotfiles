@@ -1,0 +1,29 @@
+cp ~/.zshrc ~/developer/dotfiles/
+cp ~/.zsh_history ~/developer/dotfiles/
+cp ~/.zshenv ~/developer/dotfiles/ 2>/dev/null || true
+cp ~/.zprofile ~/developer/dotfiles/ 2>/dev/null || true
+
+# Copy Oh My Zsh custom configurations (if they exist)
+mkdir -p ~/developer/dotfiles/oh-my-zsh-custom
+cp -r ~/.oh-my-zsh/custom/* ~/developer/dotfiles/oh-my-zsh-custom/ 2>/dev/null || true
+
+# Copy other common config files
+cp ~/.gitconfig ~/developer/dotfiles/ 2>/dev/null || true
+cp ~/.gitignore_global ~/developer/dotfiles/ 2>/dev/null || true
+cp ~/.vimrc ~/developer/dotfiles/ 2>/dev/null || true
+cp ~/.tmux.conf ~/developer/dotfiles/ 2>/dev/null || true
+
+# Copy SSH config (not private keys)
+mkdir -p ~/developer/dotfiles/ssh
+cp ~/.ssh/config ~/developer/dotfiles/ssh/ 2>/dev/null || true
+cp ~/.ssh/known_hosts ~/developer/dotfiles/ssh/ 2>/dev/null || true
+
+# Create a list of installed brew packages
+brew list --formula > ~/developer/dotfiles/brew-packages.txt
+brew list --cask > ~/developer/dotfiles/brew-casks.txt
+
+# List installed Oh My Zsh plugins
+ls ~/.oh-my-zsh/plugins > ~/developer/dotfiles/omz-plugins.txt 2>/dev/null || true
+
+# Show what was backed up
+ls -la ~/developer/dotfiles/

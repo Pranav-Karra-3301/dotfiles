@@ -1,0 +1,13 @@
+[user]
+	name = Pranav Karra
+	email = pranavkarra001@gmail.com
+	user = Pranav-Karra-3301
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[credential]
+	helper = store
+[http]
+	postBuffer = 157286400
