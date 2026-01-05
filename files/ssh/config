@@ -1,0 +1,38 @@
+Host e5-cse-rz01.cse.psu.edu
+  HostName e5-cse-rz01.cse.psu.edu
+  User ptk5111
+
+Host e5-cse-121rz01.cse.psu.edu
+  HostName e5-cse-121rz01.cse.psu.edu
+  User ptk5111
+
+Host e5-cse-121rz01
+  HostName e5-cse-121rz01
+  User ptk5111
+
+Host e5-cse-135-09.cse.psu.edu
+  HostName e5-cse-135-09.cse.psu.edu
+  User ptk5111
+
+  Host e5-cse-135-08.cse.psu.edu
+    HostName e5-cse-135-08.cse.psu.edu
+    User ptk5111
+
+Host e5-cse-135-08.cse.psu.edu
+  HostName e5-cse-135-08.cse.psu.edu
+  ForwardX11Trusted yes
+  User ptk5111
+
+  Host e5-cse-135-09.cse.psu.edu
+    HostName e5-cse-135-09.cse.psu.edu
+    ForwardX11Trusted yes
+    User ptk5111
+
+Host 104.38.117.194
+  HostName 104.38.117.194
+  User idhantgulati
+
+Host 172.16.58.41
+  HostName 172.16.58.41
+  Port 6868
+  User pranavkarra

@@ -1,0 +1,28 @@
+{
+  "repository": {
+    "path": "/Users/pranavkarra/.tuck",
+    "defaultBranch": "main",
+    "autoCommit": true,
+    "autoPush": false
+  },
+  "files": {
+    "strategy": "copy",
+    "backupOnRestore": true
+  },
+  "categories": {},
+  "ignore": [],
+  "hooks": {},
+  "templates": {
+    "enabled": false,
+    "variables": {}
+  },
+  "encryption": {
+    "enabled": false,
+    "files": []
+  },
+  "ui": {
+    "colors": true,
+    "emoji": true,
+    "verbose": false
+  }
+}

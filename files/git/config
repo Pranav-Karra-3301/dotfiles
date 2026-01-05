@@ -1,0 +1,2 @@
+[includeIf "gitdir/i:~/beltic/"]
+    path = ~/.config/git/beltic-config

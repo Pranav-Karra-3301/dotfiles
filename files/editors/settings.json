@@ -1,0 +1,52 @@
+{
+  "cSpell.userWords": [
+    "nibabel",
+    "skimage",
+    "trimesh"
+  ],
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "cmake.showOptionsMovedNotification": false,
+  "cursor.cpp.disabledLanguages": [
+    "plaintext",
+    "markdown",
+    "scminput",
+    "javascript"
+  ],
+  "editor.accessibilitySupport": "on",
+  "editor.fontSize": 15,
+  "editor.mouseWheelZoom": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.enable": {
+    "*": true,
+    "javascript": false,
+    "markdown": false,
+    "plaintext": false,
+    "python": true,
+    "scminput": false
+  },
+  "google-translate.firstLanguage": "en",
+  "jupyter.askForKernelRestart": false,
+  "notebook.lineNumbers": "on",
+  "search.followSymlinks": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.env.osx": {
+    "Q_NEW_SESSION": "1"
+  },
+  "terminal.integrated.inheritEnv": false,
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.productIconTheme": "fluent-icons",
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "cursor.agent_layout_browser_beta_setting": true,
+  "workbench.colorTheme": "GitHub Dark Default"
+}

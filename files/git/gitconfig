@@ -1,0 +1,19 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[credential]
+	helper = 
+[http]
+	postBuffer = 157286400
+[includeIf "gitdir:~/beltic/"]
+	path = /Users/pranavkarra/.gitconfig.d/beltic-work.inc
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[includeIf "gitdir:/Users/pranavkarra/beltic/"]
+	path = /Users/pranavkarra/beltic/.gitconfig
