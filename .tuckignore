@@ -1,0 +1,5 @@
+# .tuckignore - Files to exclude from tracking
+# One exact file path per line (no globs)
+# Lines starting with # are comments
+
+~/bin
