@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "created": "2025-12-27T19:23:11.816Z",
-  "updated": "2026-01-05T21:29:02.943Z",
+  "updated": "2026-01-05T21:34:21.295Z",
   "machine": "Pranavs-MacBook-Pro.local",
   "files": {
     "bashrc": {
@@ -409,7 +409,7 @@
       "template": false,
       "permissions": "755",
       "added": "2026-01-05T21:28:51.805Z",
-      "modified": "2026-01-05T21:29:02.943Z",
+      "modified": "2026-01-05T21:34:21.295Z",
       "checksum": "ae0b97f6a8d4ce176cda111195cd8c868600aa3e0e5869d823c85417473cb4de"
     },
     "config_karabiner": {
