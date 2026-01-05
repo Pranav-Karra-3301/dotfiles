@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "created": "2025-12-27T19:23:11.816Z",
-  "updated": "2026-01-05T21:34:21.295Z",
+  "updated": "2026-01-05T21:36:40.220Z",
   "machine": "Pranavs-MacBook-Pro.local",
   "files": {
     "bashrc": {
@@ -241,8 +241,8 @@
       "template": false,
       "permissions": "755",
       "added": "2026-01-05T21:28:50.173Z",
-      "modified": "2026-01-05T21:28:50.173Z",
-      "checksum": "af1be53783a35aa4673484aa8c3237b3b37e52c5df631fad0c86c96f0cfd9ff6"
+      "modified": "2026-01-05T21:36:36.920Z",
+      "checksum": "9d465c0bad01e32d365b8125f682ef6dde33e75d5cad8ade66a165c52cb6111c"
     },
     "netrc": {
       "source": "~/.netrc",
@@ -289,8 +289,8 @@
       "template": false,
       "permissions": "755",
       "added": "2026-01-05T21:28:50.313Z",
-      "modified": "2026-01-05T21:28:50.313Z",
-      "checksum": "d6100993152f7c61f97d5e3797aeb148b2eb8eb334f0f3e7565f449da3905702"
+      "modified": "2026-01-05T21:36:36.924Z",
+      "checksum": "2a5167f3301f46b6521ecee373d41aa820f194eaf6285396e8cd0fc9a829c0c4"
     },
     "npmrc": {
       "source": "~/.npmrc",
@@ -409,7 +409,7 @@
       "template": false,
       "permissions": "755",
       "added": "2026-01-05T21:28:51.805Z",
-      "modified": "2026-01-05T21:34:21.295Z",
+      "modified": "2026-01-05T21:36:37.522Z",
       "checksum": "ae0b97f6a8d4ce176cda111195cd8c868600aa3e0e5869d823c85417473cb4de"
     },
     "config_karabiner": {
@@ -433,8 +433,8 @@
       "template": false,
       "permissions": "755",
       "added": "2026-01-05T21:28:54.711Z",
-      "modified": "2026-01-05T21:28:54.711Z",
-      "checksum": "313d6b9ef972381cb4fb9f7296efe1c2bf913c10959a96d9346bf570ae868b59"
+      "modified": "2026-01-05T21:36:40.219Z",
+      "checksum": "bf7779b76bf88ecbe2d090589d4086c339f7fbfb44d0cecb10e231438d5d5b59"
     },
     "config_neofetch": {
       "source": "~/.config/neofetch",
