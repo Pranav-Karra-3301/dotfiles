@@ -3,3 +3,5 @@
 # Lines starting with # are comments
 
 ~/bin
+~/Library/Preferences/com.googlecode.iterm2.plist
+~/.config/raycast

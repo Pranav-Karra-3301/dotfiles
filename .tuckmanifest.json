@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "created": "2025-12-27T19:23:11.816Z",
-  "updated": "2026-01-05T21:50:30.596Z",
+  "updated": "2026-01-13T20:13:42.726Z",
   "machine": "Pranavs-MacBook-Pro.local",
   "files": {
     "bashrc": {
@@ -109,8 +109,8 @@
       "template": false,
       "permissions": "644",
       "added": "2026-01-05T21:28:49.561Z",
-      "modified": "2026-01-05T21:28:49.561Z",
-      "checksum": "3e6b4cda55ce2da61e362661b38e4f152ac5660e5b9ccc4fb360c93b20b3ed29"
+      "modified": "2026-01-13T20:13:42.571Z",
+      "checksum": "c2017814f5215c3c707c9efc6aa27ba583ec91f228f01bbf05c43e5b7ab293aa"
     },
     "config_git_config": {
       "source": "~/.config/git/config",
@@ -241,8 +241,8 @@
       "template": false,
       "permissions": "755",
       "added": "2026-01-05T21:28:50.173Z",
-      "modified": "2026-01-05T21:50:26.965Z",
-      "checksum": "af1be53783a35aa4673484aa8c3237b3b37e52c5df631fad0c86c96f0cfd9ff6"
+      "modified": "2026-01-13T20:13:42.719Z",
+      "checksum": "9d465c0bad01e32d365b8125f682ef6dde33e75d5cad8ade66a165c52cb6111c"
     },
     "netrc": {
       "source": "~/.netrc",
@@ -289,8 +289,8 @@
       "template": false,
       "permissions": "755",
       "added": "2026-01-05T21:28:50.313Z",
-      "modified": "2026-01-05T21:50:26.969Z",
-      "checksum": "d6100993152f7c61f97d5e3797aeb148b2eb8eb334f0f3e7565f449da3905702"
+      "modified": "2026-01-13T20:13:42.724Z",
+      "checksum": "2a5167f3301f46b6521ecee373d41aa820f194eaf6285396e8cd0fc9a829c0c4"
     },
     "npmrc": {
       "source": "~/.npmrc",
