@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "created": "2025-12-27T19:23:11.816Z",
-  "updated": "2026-01-13T22:32:22.167Z",
+  "updated": "2026-01-14T20:35:34.651Z",
   "machine": "Pranavs-MacBook-Pro.local",
   "files": {
     "bashrc": {
@@ -25,8 +25,8 @@
       "template": false,
       "permissions": "644",
       "added": "2026-01-05T21:28:49.313Z",
-      "modified": "2026-01-05T21:28:49.313Z",
-      "checksum": "4fc80baffde0c3f20ad8c787682f20c411e8261610480f69c25f8114fbfd2d89"
+      "modified": "2026-01-14T20:35:27.236Z",
+      "checksum": "723c59d6259c3c660134f61301f093d3e7d0df79827ff4b77ead39595deaac07"
     },
     "zshrc": {
       "source": "~/.zshrc",
@@ -37,8 +37,8 @@
       "template": false,
       "permissions": "644",
       "added": "2026-01-05T21:28:49.350Z",
-      "modified": "2026-01-05T21:28:49.350Z",
-      "checksum": "e32bf64ab28b71a1e6a58ed8d2d871401ed63451d984b1049e6b87e2c49e06d8"
+      "modified": "2026-01-14T20:35:27.245Z",
+      "checksum": "112adf6dc67b1e2a2ccaa9f0c3d8b7e8568d0152e5bb4847ce49c7f80a81738e"
     },
     "zprofile": {
       "source": "~/.zprofile",
@@ -241,8 +241,8 @@
       "template": false,
       "permissions": "755",
       "added": "2026-01-05T21:28:50.173Z",
-      "modified": "2026-01-13T20:13:42.719Z",
-      "checksum": "9d465c0bad01e32d365b8125f682ef6dde33e75d5cad8ade66a165c52cb6111c"
+      "modified": "2026-01-14T20:35:34.651Z",
+      "checksum": "c5aca85e8f4229a1453b4ea2021e68f1ac66c758258660407e468f0f8e3e6060"
     },
     "netrc": {
       "source": "~/.netrc",

@@ -179,69 +179,74 @@ export PATH=$PATH:/Library/Frameworks/Python.framework/Versions/3.11/lib/python3
 export PATH=$PATH:/Users/pranavkarra/.spicetify
 
 
-# THE FUCK
-eval $(thefuck --alias)
-# You can use whatever you want as an alias, like for Mondays:
-eval $(thefuck --alias FUCK)
+# THE FUCK - lazy loaded
+fuck() {
+    unset -f fuck
+    eval $(thefuck --alias)
+    fuck "$@"
+}
+FUCK() {
+    unset -f FUCK
+    eval $(thefuck --alias FUCK)
+    FUCK "$@"
+}
 
 eval "$(zoxide init zsh)"
 export PATH="/Applications/CotEditor.app/Contents/MacOS:$PATH"
-source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+
+echo "Welcome, Pranav"
 
 
-echo -e '\e[31m _______                                                    \e[0m'
-echo -e '\e[31m/       \                                                  \e[0m'
-echo -e '\e[33m$$$$$$$  | ______   ______   _______    ______   __     __ \e[0m'
-echo -e '\e[33m$$ |__$$ |/      \ /      \ /       \  /      \ /  \   /  |\e[0m'
-echo -e '\e[32m$$    $$//$$$$$$  |$$$$$$  |$$$$$$$  | $$$$$$  |$$  \ /$$/ \e[0m'
-echo -e '\e[32m$$$$$$$/ $$ |  $$/ /    $$ |$$ |  $$ | /    $$ | $$  /$$/  \e[0m'
-echo -e '\e[36m$$ |     $$ |     /$$$$$$$ |$$ |  $$ |/$$$$$$$ |  $$ $$/   \e[0m'
-echo -e '\e[36m$$ |     $$ |     $$    $$ |$$ |  $$ |$$    $$ |   $$$/    \e[0m'
-echo -e '\e[34m$$/      $$/       $$$$$$$/ $$/   $$/  $$$$$$$/     $/     \e[0m'
-echo -e '\e[34m __    __                                                  \e[0m'
-echo -e '\e[35m/  |  /  |                                                 \e[0m'
-echo -e '\e[31m$$ | /$$/   ______    ______    ______   ______            \e[0m'
-echo -e '\e[33m$$ |/$$/   /      \  /      \  /      \ /      \           \e[0m'
-echo -e '\e[32m$$  $$<    $$$$$$  |/$$$$$$  |/$$$$$$  |$$$$$$  |          \e[0m'
-echo -e '\e[36m$$$$$  \   /    $$ |$$ |  $$/ $$ |  $$/ /    $$ |          \e[0m'
-echo -e '\e[34m$$ |$$  \ /$$$$$$$ |$$ |      $$ |     /$$$$$$$ |          \e[0m'
-echo -e '\e[35m$$ | $$  |$$    $$ |$$ |      $$ |     $$    $$ |          \e[0m'
-echo -e '\e[31m$$/   $$/  $$$$$$$/ $$/       $$/       $$$$$$$/           \e[0m'
-echo -e '\e[33m                                                           \e[0m'
-echo -e '\e[32m                                                           \e[0m'
-echo -e '\e[36m                                                           \e[0m'
+# Cache SSL cert path (regenerate with: rm ~/.ssl_cert_cache)
+if [[ -f ~/.ssl_cert_cache ]]; then
+    export SSL_CERT_FILE=$(cat ~/.ssl_cert_cache)
+else
+    export SSL_CERT_FILE=$(python3 -m certifi)
+    echo "$SSL_CERT_FILE" > ~/.ssl_cert_cache
+fi
 
 
-export SSL_CERT_FILE=$(python3 -m certifi)
-
-
+# NVM - lazy loaded
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+nvm() {
+    unset -f nvm node npm npx
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+    nvm "$@"
+}
+node() { nvm use default >/dev/null 2>&1; unset -f node; node "$@"; }
+npm() { nvm use default >/dev/null 2>&1; unset -f npm; npm "$@"; }
+npx() { nvm use default >/dev/null 2>&1; unset -f npx; npx "$@"; }
 
 # Added by Windsurf
 export PATH="/Users/pranavkarra/.codeium/windsurf/bin:$PATH"
 alias start-media="~/scripts/start_services.sh"
 alias stop-media="~/scripts/stop_services.sh"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
+# pyenv - lazy loaded
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+pyenv() {
+    unset -f pyenv
+    eval "$(command pyenv init --path)"
+    eval "$(command pyenv init -)"
+    pyenv "$@"
+}
 
+# Conda - lazy loaded
 export PATH=~/anaconda3/bin:$PATH
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/pranavkarra/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/pranavkarra/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/pranavkarra/anaconda3/etc/profile.d/conda.sh"
+conda() {
+    unset -f conda
+    __conda_setup="$('/Users/pranavkarra/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+    if [ $? -eq 0 ]; then
+        eval "$__conda_setup"
     else
-        export PATH="/Users/pranavkarra/anaconda3/bin:$PATH"
+        if [ -f "/Users/pranavkarra/anaconda3/etc/profile.d/conda.sh" ]; then
+            . "/Users/pranavkarra/anaconda3/etc/profile.d/conda.sh"
+        fi
     fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
+    unset __conda_setup
+    conda "$@"
+}
 
 # Amazon Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"

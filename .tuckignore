@@ -5,3 +5,4 @@
 ~/bin
 ~/Library/Preferences/com.googlecode.iterm2.plist
 ~/.config/raycast
+~/.p10k.zsh
