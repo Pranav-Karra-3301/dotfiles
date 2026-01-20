@@ -24,3 +24,5 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/opt/homebrew/bin/gh auth git-credential
+# GPG/SSH signing disabled globally for personal repos
+# Signing is enabled only for ~/beltic/ via includeIf

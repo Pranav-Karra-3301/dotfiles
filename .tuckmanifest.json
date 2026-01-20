@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "created": "2025-12-27T19:23:11.816Z",
-  "updated": "2026-01-14T20:35:34.651Z",
+  "updated": "2026-01-20T03:38:36.400Z",
   "machine": "Pranavs-MacBook-Pro.local",
   "files": {
     "bashrc": {
@@ -109,8 +109,8 @@
       "template": false,
       "permissions": "644",
       "added": "2026-01-05T21:28:49.561Z",
-      "modified": "2026-01-13T22:32:22.167Z",
-      "checksum": "5d4a4862eaf6a80489b42a5cc5b944f3fa928e28c47aadc6bb483bfd30d54b6b"
+      "modified": "2026-01-20T03:38:36.390Z",
+      "checksum": "a1ce546f0aa214f1de642fac3831734afc9b1d8708d840d10c2e0ae898c81a48"
     },
     "config_git_config": {
       "source": "~/.config/git/config",
@@ -361,8 +361,8 @@
       "template": false,
       "permissions": "600",
       "added": "2026-01-05T21:28:50.531Z",
-      "modified": "2026-01-05T21:28:50.531Z",
-      "checksum": "b6fd313cef459d844c4d64f677c534f7bd28b64e8e3e86ed9cdce97152572dbd"
+      "modified": "2026-01-20T03:38:36.400Z",
+      "checksum": "cfbe45f1264c77026900361f09a0b7754e9b8fc7bfeb78a4cc7e77f1a764639e"
     },
     "config_yabai": {
       "source": "~/.config/yabai",
