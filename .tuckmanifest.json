@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "created": "2025-12-27T19:23:11.816Z",
-  "updated": "2026-01-29T04:09:54.806Z",
+  "updated": "2026-01-29T04:10:16.019Z",
   "machine": "Pranavs-MacBook-Pro.local",
   "files": {
     "bashrc": {
@@ -145,8 +145,8 @@
       "template": false,
       "permissions": "751",
       "added": "2026-01-05T21:28:49.663Z",
-      "modified": "2026-01-29T04:09:54.804Z",
-      "checksum": "f32cc3b402c5f8f3c73d81b8bd2ef676547b9c0c76c80cc645ffcedba6bcaec9"
+      "modified": "2026-01-29T04:10:16.019Z",
+      "checksum": "55bd66ce5c1ca62002fcd0feb4a1700c5b8f8d21363016e53536011d72468668"
     },
     "config_nvim": {
       "source": "~/.config/nvim",
