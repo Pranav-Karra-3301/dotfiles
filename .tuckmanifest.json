@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "created": "2025-12-27T19:23:11.816Z",
-  "updated": "2026-01-20T03:38:36.400Z",
+  "updated": "2026-01-29T04:09:54.806Z",
   "machine": "Pranavs-MacBook-Pro.local",
   "files": {
     "bashrc": {
@@ -145,8 +145,8 @@
       "template": false,
       "permissions": "751",
       "added": "2026-01-05T21:28:49.663Z",
-      "modified": "2026-01-05T21:28:49.663Z",
-      "checksum": "55bd66ce5c1ca62002fcd0feb4a1700c5b8f8d21363016e53536011d72468668"
+      "modified": "2026-01-29T04:09:54.804Z",
+      "checksum": "f32cc3b402c5f8f3c73d81b8bd2ef676547b9c0c76c80cc645ffcedba6bcaec9"
     },
     "config_nvim": {
       "source": "~/.config/nvim",
@@ -193,8 +193,8 @@
       "template": false,
       "permissions": "644",
       "added": "2026-01-05T21:28:49.798Z",
-      "modified": "2026-01-05T21:28:49.798Z",
-      "checksum": "d9c0b863b3a7ad6c21d62688bb04168e833a4761b5ad5c76f212fee430513fde"
+      "modified": "2026-01-29T04:09:54.806Z",
+      "checksum": "2a7d4811699aa4ebad995019684afb6744ab199d5eff8a1d71d918d11fcc32b6"
     },
     "hyper-js": {
       "source": "~/.hyper.js",
